@@ -67,8 +67,8 @@ def collect_assets_in_dir(directory: str, pattern: str = DEFAULT_PATTERN, manife
 
 
 def main(args: Optional[Sequence[str]] = None):
-    import argparse
     """Run as standalone"""
+    import argparse
 
     parser = argparse.ArgumentParser()
     parser.add_argument("--path", help="Path to dir for grabbing", required=True)
